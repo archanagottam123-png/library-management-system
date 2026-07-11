@@ -1,0 +1,22 @@
+{
+  "name": "library-management-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full Stack Library Management System - MERN Stack",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/server.js",
+    "server:dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
